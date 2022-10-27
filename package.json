@@ -1,0 +1,22 @@
+{
+  "name": "nft-website",
+  "version": "1.0.0",
+  "description": "An nft website with a suprise?",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichalMietkiewicz/NFTwebsite.git"
+  },
+  "keywords": [
+    "nft"
+  ],
+  "author": "Michał Miętkiewicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichalMietkiewicz/NFTwebsite/issues"
+  },
+  "homepage": "https://github.com/MichalMietkiewicz/NFTwebsite#readme"
+}
