@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    background-color: #0B0B0F;
+}
+p {
+    margin: 0;
+}
+
+a, a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    object-fit: cover;
+}
+
+h2{
+    margin: 0;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.hero-list {
+    width: 400px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    margin-top: 32px;
+}
+
+.site-content {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.navigation-button {
+    padding: 10px 18px;
+    border-radius: 10px;
+}
+
+.hollow-button {
+    background-color: inherit;
+    border: solid 1px #fff;
+}
+
+.button-gradient {
+    border: none;
+    background: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.button-font {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navigation-side-content {
+    min-width: 202px;
+    max-height: 40px;
+    margin-top: 20px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.white-text {
+    color: #FFFFFF;
+    line-height: 100%;
+    font-style: normal;
+}
+
+.title-font {
+    font-size: 64px;
+    font-family: 'Inter', sans-serif;
+    line-height: 130%;
+    word-spacing: 10px;
+}
+
+.hero-text-content {
+    margin-top: 225px;
+    width: 780px;
+}
+
+.hero-paragraph {
+    margin-bottom: 29px;
+}
+
+.greyish-blue {
+    color: #898CA9;
+    font-style: normal;
+}
+
+.gradient-text {
+    background-clip: text;
+    background: -webkit-linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.twin-hero-buttons {
+    width: 360px;
+}
+
+.hero-content-button {
+    border-radius: 10px;
+    padding: 18px 32px;
+}
+
+.just-flex{
+    display: flex;
+}
+
+.hero-icons {
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(2, [col-start] 1fr);
+    gap: 60px 70px;
+}
+
+.hero-bottom-bar {
+    margin: 70px 0;
+}
+
+.hero-bottom-left-icon {
+    margin-left: 30%;
+}
+
+.hero-bottom-right-icon {
+    float: right;
+}
+
+.tile-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.link-tile {
+    background-color: #1A1B23;
+    border-radius: 15px;
+    padding: 32px 24px;
+    margin-bottom: 5px;
+}
+
+.flex-collumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-flex-img {
+    align-self: center;
+}
+
+.tile-title {
+    margin: 16px 0 10px 0;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 130%;
+}
+
+.main-font{
+    font-family: 'Inter', sans-serif;
+}
+
+.paragraph-style {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    max-width: 580px;
+}
+
+.tile-paragraph {
+    width: 300px;
+    line-height: 160%;
+}
+
+.tile-link-box {
+    margin-top: 30px;
+}
+
+.link-font {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #B982FF !important;
+    margin-right: 6px;
+}
+
+.outside-icon-left {
+    position: relative;
+    right: 57px;
+    bottom: 20px;
+}
+
+.fluff-icon {
+    padding: 7px 57px 0 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smaller-title{
+    font-size: 50px;
+    
+}
+
+.subsection-center-title {
+    margin: 34px 0 20px 0;
+}
+
+.subsection-center-content {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.subsection-paragraph {
+    width: 580px;
+    margin-bottom: 32px;
+}
+
+.outside-icon-right {
+    position: relative;
+    bottom: 264px;
+    left: 92%;
+}
+
+.subsection-right-title {
+    margin-bottom: 20px;
+}
+
+.subsection-left-img {
+    padding: 20px 200px 0 0;
+    align-self: baseline;
+}
+
+.left-align-txt {
+    text-align: left;
+}
+
+.left-subsection-button {
+    margin-top: 32px;
+    margin-right: auto;
+    margin-bottom: 275px;
+}
+
+.bottom-spacing {
+    margin-bottom: 200px;
+}
