@@ -4,6 +4,7 @@
   "description": "An nft website with a suprise?",
   "main": "app.js",
   "scripts": {
+    "watch:scss": "node-sass -w styles.scss styles.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/MichalMietkiewicz/NFTwebsite/issues"
   },
-  "homepage": "https://github.com/MichalMietkiewicz/NFTwebsite#readme"
+  "homepage": "https://github.com/MichalMietkiewicz/NFTwebsite#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
 }
