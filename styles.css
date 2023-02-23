@@ -18,6 +18,9 @@ img {
 h2 {
   margin: 0; }
 
+h4 {
+  margin: 0; }
+
 .space-between {
   display: flex;
   justify-content: space-between; }
@@ -239,3 +242,71 @@ h2 {
   margin: 40px 0 0 50px;
   width: 690px;
   align-self: baseline; }
+
+.input-title {
+  margin-bottom: 18px; }
+
+.input-box {
+  background: #0B0B0F;
+  min-width: 260px;
+  padding: 17px 20px;
+  position: relative;
+  background-clip: padding-box;
+  border-radius: 10px;
+  border: 1px solid transparent; }
+
+.input-box::after {
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+  background: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+  content: '';
+  z-index: -1;
+  border-radius: 10px; }
+
+.subsection-input-spacing {
+  margin-bottom: 120px; }
+
+.smaller-para {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%; }
+
+.input-section-para {
+  margin-bottom: 32px; }
+
+.align-baseline {
+  align-self: center; }
+
+.gray-text {
+  color: #fff;
+  opacity: 0.3; }
+
+.footer-para {
+  margin: 50px 0 30px 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%; }
+
+.footer-left-content {
+  max-width: 380px; }
+
+.footer-input-size {
+  width: 305px;
+  margin-bottom: 25px; }
+
+.tiny-text {
+  font-size: 12px; }
+
+.footer-list {
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 100px 0 0 0; }
+
+.site-bottom {
+  margin-bottom: 120px; }
