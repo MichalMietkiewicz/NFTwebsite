@@ -24,6 +24,10 @@
   font-weight: 800;
   line-height: 130%;
 }
+.link-tile p {
+  width: 300px;
+  line-height: 160%;
+}
 
 .subsection-center-content {
   width: 750px;
@@ -52,6 +56,15 @@
   line-height: 24px;
 }
 
+.subsection-organizer h2 {
+  margin-bottom: 20px;
+}
+.subsection-organizer a {
+  margin-top: 32px;
+  margin-right: auto;
+  margin-bottom: 275px;
+}
+
 .site-bottom {
   margin-bottom: 120px;
 }
@@ -66,6 +79,18 @@
 
 .para-subsection-image {
   margin-bottom: 300px;
+}
+
+.navigation-side-content {
+  min-width: 200px;
+  max-height: 40px;
+  margin-top: 20px;
+  align-items: center;
+  box-sizing: border-box;
+}
+.navigation-side-content button {
+  padding: 10px 18px;
+  border-radius: 10px;
 }
 
 * {
@@ -131,11 +156,6 @@ button {
   margin: 0 auto;
 }
 
-.navigation-button {
-  padding: 10px 18px;
-  border-radius: 10px;
-}
-
 .hollow-button {
   background-color: inherit;
   border: solid 1px #fff;
@@ -153,14 +173,6 @@ button {
 .button-font {
   font-weight: 600;
   font-size: 16px;
-}
-
-.navigation-side-content {
-  min-width: 202px;
-  max-height: 40px;
-  margin-top: 20px;
-  align-items: center;
-  box-sizing: border-box;
 }
 
 .white-text {
@@ -248,11 +260,6 @@ button {
   max-width: 580px;
 }
 
-.tile-paragraph {
-  width: 300px;
-  line-height: 160%;
-}
-
 .tile-link-box {
   margin-top: 30px;
 }
@@ -288,10 +295,6 @@ button {
   left: 92%;
 }
 
-.subsection-right-title {
-  margin-bottom: 20px;
-}
-
 .subsection-left-img {
   padding: 20px 200px 0 0;
   align-self: baseline;
@@ -299,12 +302,6 @@ button {
 
 .left-align-txt {
   text-align: left;
-}
-
-.left-subsection-button {
-  margin-top: 32px;
-  margin-right: auto;
-  margin-bottom: 275px;
 }
 
 .bottom-spacing {

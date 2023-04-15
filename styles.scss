@@ -63,11 +63,6 @@ button {
     margin: 0 auto;
 }
 
-.navigation-button {
-    padding: 10px 18px;
-    border-radius: 10px;
-}
-
 .hollow-button {
     background-color: inherit;
     border: solid 1px #fff;
@@ -85,14 +80,6 @@ button {
 .button-font {
     font-weight: $bold;
     font-size: $link-font-size;
-}
-
-.navigation-side-content {
-    min-width: 202px;
-    max-height: 40px;
-    margin-top: 20px;
-    align-items: center;
-    box-sizing: border-box;
 }
 
 .white-text {
@@ -113,7 +100,7 @@ button {
 }
 
 .greyish-blue {
-    color: #898CA9;
+    color: $gray-blue;
     font-style: normal;
 }
 
@@ -180,10 +167,6 @@ button {
     max-width: 580px;
 }
 
-.tile-paragraph {
-    width: 300px;
-    line-height: 160%;
-}
 
 .tile-link-box {
     margin-top: 30px;
@@ -220,10 +203,6 @@ button {
     left: 92%;
 }
 
-.subsection-right-title {
-    margin-bottom: 20px;
-}
-
 .subsection-left-img {
     padding: 20px 200px 0 0;
     align-self: baseline;
@@ -231,12 +210,6 @@ button {
 
 .left-align-txt {
     text-align: left;
-}
-
-.left-subsection-button {
-    margin-top: 32px;
-    margin-right: auto;
-    margin-bottom: 275px;
 }
 
 .bottom-spacing {

@@ -29,6 +29,10 @@
         font-weight: $extrabold;
         line-height: 130%;
     }
+    p {
+        width: 300px;
+        line-height: 160%;
+    }
 }
 
 .subsection-center-content {
@@ -60,6 +64,17 @@
     }
 }
 
+.subsection-organizer {
+    h2 {
+        margin-bottom: 20px;
+    }
+    a {
+        margin-top: 32px;
+        margin-right: auto;
+        margin-bottom: 275px;
+    }
+}
+
 .site-bottom {
     margin-bottom: 120px;
 }
@@ -74,4 +89,17 @@
 
 .para-subsection-image {
     margin-bottom: 300px;
+}
+
+.navigation-side-content {
+    min-width: 200px;
+    max-height: 40px;
+    margin-top: 20px;
+    align-items: center;
+    box-sizing: border-box;
+
+    button {
+        padding: 10px 18px;
+        border-radius: 10px;
+    }
 }
