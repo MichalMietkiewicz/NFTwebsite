@@ -1,0 +1,26 @@
+$main-background: #0B0B0F;
+$main-gradient: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+$gray-blue: #898CA9;
+$box-background: #1A1B23;
+$link-color: #B982FF;
+
+$main-font: 'Inter', sans-serif;
+
+$thin: 300;
+$thick: 400;
+$bold: 600;
+$extrabold: 800;
+
+$tiny-font-size: 12px;
+$regular-font-size: 14px; 
+$link-font-size: 16px;
+$card-subtitle-size: 32px;
+$small-title-size: 50px;
+$title-size: 64px;
+
+
+@mixin subpara-style {
+    width: 580px;
+    margin-bottom: 32px;
+}
+

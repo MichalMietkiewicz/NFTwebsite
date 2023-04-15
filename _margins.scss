@@ -1,0 +1,109 @@
+.input-fluff-box {
+    h2 {
+        margin-bottom: 18px;
+    }
+    
+    p  {
+        margin-bottom: 32px;
+    }
+}
+
+.hero-text-content {
+    p {
+        margin-bottom: 29px;
+    }
+}
+
+.link-tile {
+    background-color: $box-background;
+    border-radius: 15px;
+    padding: 32px 24px;
+    margin-bottom: 5px;
+    
+    img {
+        align-self: center;
+    }
+
+    h3 {
+        margin: 16px 0 10px 0;
+        font-size: $card-subtitle-size;
+        font-weight: $extrabold;
+        line-height: 130%;
+    }
+
+    p {
+        width: 300px;
+        line-height: 160%;
+    }
+}
+
+.subsection-center-content {
+    width: 750px;
+    margin: 0 auto;
+    
+    p {
+        margin-top: 16px;
+        @include subpara-style;
+    }
+
+    h2 {
+        margin: 34px 0 20px 0;
+    }
+}
+
+.para-subsection-box {
+    p {
+        @include subpara-style;
+        margin-top: 40px;
+    }
+}
+
+.subsection-left-container {
+    width: 650px;
+
+    p {
+        margin: 18px 0 30px 0;
+        line-height: 24px;
+    }
+}
+
+.subsection-organizer {
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    a {
+        margin-top: 32px;
+        margin-right: auto;
+        margin-bottom: 275px;
+    }
+}
+
+.site-bottom {
+    margin-bottom: 120px;
+}
+
+.subsection-input-spacing {
+    margin-bottom: 120px;
+}
+
+.footer-logo {
+    margin-right: 40px;
+}
+
+.para-subsection-image {
+    margin-bottom: 300px;
+}
+
+.navigation-side-content {
+    min-width: 200px;
+    max-height: 40px;
+    margin-top: 20px;
+    align-items: center;
+    box-sizing: border-box;
+
+    button {
+        padding: 10px 18px;
+        border-radius: 10px;
+    }
+}
